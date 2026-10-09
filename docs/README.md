@@ -135,9 +135,13 @@ perimeter(6, 7, 8)
 ```
 ## Тесты
  Все тесты находяться в папке tests.
- Пример запуски тестов:
+ Пример запуски тестов из для кокретного файла:
  ```bash
  python3 -m unittest tests/TestsForCircle.py 
+ ```
+  Пример запуски всех тестов:
+ ```bash
+python3 -m unittest discover -s tests -p "TestsFor*.py" -v
  ```
 ## История изменения проекта
 
